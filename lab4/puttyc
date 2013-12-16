@@ -1,0 +1,65 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2013.10.13 09:11:01 =~=~=~=~=~=~=~=~=~=~=~=
+login as: jaimew
+USE OF THIS SYSTEM IS RESTRICTED TO AUTHORIZED EASTERN WASHINGTON UNIVERSITY
+USERS ONLY!! UNAUTHORIZED ACCESS IS PROHIBITED!!
+jaimew@cslinux.eastern.ewu.edu's password: 
+     .                                                                 
+    . ?                                                                
+  .M.MM.                                  MMM                          
+  MM DM.  .:                                MM.                        
+  MM MMM.M?                                 .MM ~                      
+  .MM MM   .                              MMM M                     
+  MM MM.MM.D..~                            OMM MM                      
+  .MM MM MM.M M                             MM.MMM                     
+  .:.  . :I?M+M.                         .7 .NMMMM.                    
+  . MMMMMMMMMM                         MM.DMMMM.,.                     
+  .MMMMMMMMMM.                  . .MMMM 8MM.OMN                        
+    MMMMMMMMMM                M .MMMMMM.MMMMMM                         
+    .DMMMM                  NMM..MMMMMM. ...MMZ                        
+      ?MMMMMMMMM.        ..MMMM..MMMMM= MMMMM                          
+       MMMMMMMMMM       . MMMMMM MMMMM .M ...                          
+       .MMMMMMMMMO      IMMMMMMM,MMMMM ~MMM.                           
+        .MMMM.   .     .MMMMMMMMMMMMMM.M.                              
+         .MMMMMMMM.   M  MMMMMMMMMMMMM                                 
+         .MMMMMMMMM +MM  DMMM$ MMMMMM                                  
+          ..   .. .MMMMM. MMMM  MMMM    _____      ____  __  _________ 
+       MMMMMMMMMO  MMMMMMMMMMM  .M .   / __/ | /| / / / / / / ___/ __/ 
+   .~M MMMMMMMMM=MM$.=MMMMMMMMN.      / _/ | |/ |/ / /_/ / / /___\ \   
+   .MMMMMMMMMMMMMM.MMN =MMMMM        /___/ |__/|__/\____/  \___/___/   
+    NM.     NMNMMMMMMMM..N .MM..                                       
+    .       M.MM, = MN .  .MMMMMM8 .                                   
+          .M+MMMMZ  +MMMM  .MMMMMMMMMM.                                
+         .MM M   MM   MMMMM .MMMMMMM.                                  
+    .~M,. MMM. ...    .MMMMMMMMMM                                      
+    MMM .MI.           .MMMMMM .                                       
+    M     +.             7  .                                          
+
+Welcome to the cslinux student shell server.
+
+  System information as of Sun Oct 13 09:11:15 PDT 2013
+
+  System load:  0.02               Processes:           164
+  Usage of /:   74.8% of 11.00GB   Users logged in:     10
+  Memory usage: 31%                IP address for eth0: 146.187.134.29
+  Swap usage:   0%
+
+Please observe the following rules:
+  1.) Any activity that may be perceived as malicious is grounds for termination
+      of shell server privileges and possible disciplinary action.
+  2.) Observe the ACM code of ethics (http://www.acm.org/about/code-of-ethics)
+  3.) Do not write to other user's ttys without agreeing to do so beforehand.
+  4.) Think before you type.
+
+For more information, tutorials on usage, and to disable this banner see: 
+  http://cslabswiki.cslabs.ewu.edu/wiki/index.php/Shell_Server
+
+jaimew@cslinux:~$ exit./cscd240lab4.sh 101 /home/EASTERN/jaimew/lab4/cscd240lab4outpuut1.txt /home/EASTERN/jaimew/lab4ls
+cd cscd240/lab4
+jaimew@cslinux:~/cscd240/lab4$ ./cscd240lab4.sh 101 /home/EASTERN/jaimew/cscd240 /lab4/pyttyutty1.txt /home/EASTERN/jaimew fourNoWay
+4
+There are to many args: 
+Please enter a number greater than 100: 101
+Please enter a valid file name: /home/EASTERN/jaimew/cscd240/lab4/putty1.txt
+Please enter a valid directory name: /home/EASTERN/jaimew
+jaimew@cslinux:~/cscd240/lab4$ exit
+logout

@@ -1,0 +1,106 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2013.10.19 11:27:27 =~=~=~=~=~=~=~=~=~=~=~=
+login as: jaimew
+USE OF THIS SYSTEM IS RESTRICTED TO AUTHORIZED EASTERN WASHINGTON UNIVERSITY
+USERS ONLY!! UNAUTHORIZED ACCESS IS PROHIBITED!!
+jaimew@cslinux.eastern.ewu.edu's password: 
+     .                                                                 
+    . ?                                                                
+  .M.MM.                                  MMM                          
+  MM DM.  .:                                MM.                        
+  MM MMM.M?                                 .MM ~                      
+  .MM MM   .                              MMM M                     
+  MM MM.MM.D..~                            OMM MM                      
+  .MM MM MM.M M                             MM.MMM                     
+  .:.  . :I?M+M.                         .7 .NMMMM.                    
+  . MMMMMMMMMM                         MM.DMMMM.,.                     
+  .MMMMMMMMMM.                  . .MMMM 8MM.OMN                        
+    MMMMMMMMMM                M .MMMMMM.MMMMMM                         
+    .DMMMM                  NMM..MMMMMM. ...MMZ                        
+      ?MMMMMMMMM.        ..MMMM..MMMMM= MMMMM                          
+       MMMMMMMMMM       . MMMMMM MMMMM .M ...                          
+       .MMMMMMMMMO      IMMMMMMM,MMMMM ~MMM.                           
+        .MMMM.   .     .MMMMMMMMMMMMMM.M.                              
+         .MMMMMMMM.   M  MMMMMMMMMMMMM                                 
+         .MMMMMMMMM +MM  DMMM$ MMMMMM                                  
+          ..   .. .MMMMM. MMMM  MMMM    _____      ____  __  _________ 
+       MMMMMMMMMO  MMMMMMMMMMM  .M .   / __/ | /| / / / / / / ___/ __/ 
+   .~M MMMMMMMMM=MM$.=MMMMMMMMN.      / _/ | |/ |/ / /_/ / / /___\ \   
+   .MMMMMMMMMMMMMM.MMN =MMMMM        /___/ |__/|__/\____/  \___/___/   
+    NM.     NMNMMMMMMMM..N .MM..                                       
+    .       M.MM, = MN .  .MMMMMM8 .                                   
+          .M+MMMMZ  +MMMM  .MMMMMMMMMM.                                
+         .MM M   MM   MMMMM .MMMMMMM.                                  
+    .~M,. MMM. ...    .MMMMMMMMMM                                      
+    MMM .MI.           .MMMMMM .                                       
+    M     +.             7  .                                          
+
+Welcome to the cslinux student shell server.
+
+  System information as of Sat Oct 19 11:27:45 PDT 2013
+
+  System load:  0.0                Processes:           145
+  Usage of /:   74.8% of 11.00GB   Users logged in:     5
+  Memory usage: 44%                IP address for eth0: 146.187.134.29
+  Swap usage:   0%
+
+Please observe the following rules:
+  1.) Any activity that may be perceived as malicious is grounds for termination
+      of shell server privileges and possible disciplinary action.
+  2.) Observe the ACM code of ethics (http://www.acm.org/about/code-of-ethics)
+  3.) Do not write to other user's ttys without agreeing to do so beforehand.
+  4.) Think before you type.
+
+For more information, tutorials on usage, and to disable this banner see: 
+  http://cslabswiki.cslabs.ewu.edu/wiki/index.php/Shell_Server
+
+jaimew@cslinux:~$ cd cscd240/lab5
+jaimew@cslinux:~/cscd240/lab5$ las
+a.out                 NumGuess.java   testerGame.c
+cscd240_f13_lab5.c    testerFR1018.c  testerSA1019.c
+cscd240_f13_lab5.pdf  testerGame      testerTH1017.c
+jaimew@cslinux:~/cscd240/lab5$ rm a.out 
+jaimew@cslinux:~/cscd240/lab5$ gcc cscd240_f13_lab5.c
+jaimew@cslinux:~/cscd240/lab5$ ./a.out 
+Please enter a number greater than 99: 
+345
+please enter name: Jaime
+Welcome to the number guess game. Jaime
+
+Jaime please enter a number less than 100: 
+50
+Sorry Jaime that number is too High
+Jaime are at 1 attempts
+Would you like to try again? (y/n): 
+y
+Jaime please enter a number less than 100: 
+25
+Sorry Jaime that number is too Low
+Jaime are at 2 attempts
+Would you like to try again? (y/n): 
+y
+Jaime please enter a number less than 100: 
+42
+Sorry Jaime that number is too High
+Jaime are at 3 attempts
+Would you like to try again? (y/n): 
+y
+Jaime please enter a number less than 100: 
+36
+Sorry Jaime that number is too Low
+Jaime are at 4 attempts
+Would you like to try again? (y/n): 
+y
+Jaime please enter a number less than 100: 
+38
+Sorry Jaime that number is too High
+Jaime are at 5 attempts
+Would you like to try again? (y/n): 
+y
+Jaime please enter a number less than 100: 
+37
+Jaime you got it :) :)
+Jaime good job, you guessed the number in only 6 attempts
+Would you like to play the Number Guessing Game again? (y/n): 
+n
+jaimew@cslinux:~/cscd240/lab5$ exit
+logout

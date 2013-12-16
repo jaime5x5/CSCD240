@@ -1,0 +1,122 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2013.10.31 17:07:22 =~=~=~=~=~=~=~=~=~=~=~=
+login as: jaimew
+USE OF THIS SYSTEM IS RESTRICTED TO AUTHORIZED EASTERN WASHINGTON UNIVERSITY
+USERS ONLY!! UNAUTHORIZED ACCESS IS PROHIBITED!!
+jaimew@cslinux.eastern.ewu.edu's password: 
+     .                                                                 
+    . ?                                                                
+  .M.MM.                                  MMM                          
+  MM DM.  .:                                MM.                        
+  MM MMM.M?                                 .MM ~                      
+  .MM MM   .                              MMM M                     
+  MM MM.MM.D..~                            OMM MM                      
+  .MM MM MM.M M                             MM.MMM                     
+  .:.  . :I?M+M.                         .7 .NMMMM.                    
+  . MMMMMMMMMM                         MM.DMMMM.,.                     
+  .MMMMMMMMMM.                  . .MMMM 8MM.OMN                        
+    MMMMMMMMMM                M .MMMMMM.MMMMMM                         
+    .DMMMM                  NMM..MMMMMM. ...MMZ                        
+      ?MMMMMMMMM.        ..MMMM..MMMMM= MMMMM                          
+       MMMMMMMMMM       . MMMMMM MMMMM .M ...                          
+       .MMMMMMMMMO      IMMMMMMM,MMMMM ~MMM.                           
+        .MMMM.   .     .MMMMMMMMMMMMMM.M.                              
+         .MMMMMMMM.   M  MMMMMMMMMMMMM                                 
+         .MMMMMMMMM +MM  DMMM$ MMMMMM                                  
+          ..   .. .MMMMM. MMMM  MMMM    _____      ____  __  _________ 
+       MMMMMMMMMO  MMMMMMMMMMM  .M .   / __/ | /| / / / / / / ___/ __/ 
+   .~M MMMMMMMMM=MM$.=MMMMMMMMN.      / _/ | |/ |/ / /_/ / / /___\ \   
+   .MMMMMMMMMMMMMM.MMN =MMMMM        /___/ |__/|__/\____/  \___/___/   
+    NM.     NMNMMMMMMMM..N .MM..                                       
+    .       M.MM, = MN .  .MMMMMM8 .                                   
+          .M+MMMMZ  +MMMM  .MMMMMMMMMM.                                
+         .MM M   MM   MMMMM .MMMMMMM.                                  
+    .~M,. MMM. ...    .MMMMMMMMMM                                      
+    MMM .MI.           .MMMMMM .                                       
+    M     +.             7  .                                          
+
+Welcome to the cslinux student shell server.
+
+  System information as of Thu Oct 31 17:07:43 PDT 2013
+
+  System load:  0.05               Processes:           203
+  Usage of /:   77.2% of 11.00GB   Users logged in:     12
+  Memory usage: 61%                IP address for eth0: 146.187.134.29
+  Swap usage:   49%
+
+Please observe the following rules:
+  1.) Any activity that may be perceived as malicious is grounds for termination
+      of shell server privileges and possible disciplinary action.
+  2.) Observe the ACM code of ethics (http://www.acm.org/about/code-of-ethics)
+  3.) Do not write to other user's ttys without agreeing to do so beforehand.
+  4.) Think before you type.
+
+For more information, tutorials on usage, and to disable this banner see: 
+  http://cslabswiki.cslabs.ewu.edu/wiki/index.php/Shell_Server
+
+jaimew@cslinux:~$ cd cscd240/lab9
+jaimew@cslinux:~/cscd240/lab9$ gcc cscd240Lab9.c 
+jaimew@cslinux:~/cscd240/lab9$ ./a.out 
+sizeof(ptr) 8
+sizeof(twod[0]) 12
+sizeof(twod[0][0]) 4
+twod 0x7fffc1dd2130
+ptr 0x7fffc1dd2130
+&twod[0] 0x7fffc1dd2130
+&twod[0][0] 0x7fffc1dd2130
+&twod[0][1] 0x7fffc1dd2134
+&twod[0][2] 0x7fffc1dd2138
+&twod[1] 0x7fffc1dd213c
+&ptr 0x7fffc1dd2168
+twod + 3 is: 0x7fffc1dd2154
+*(*(twod + 1)) is: 10
+*twod + 1 is: 0x7fffc1dd2134
+*twod[2] is: 20
+*(twod + 2) + 2 is: 0x7fffc1dd2150
+twod[1] is: 0x7fffc1dd213c
+twod[1][2] is: 12
+ptr 0x7fffc1dd2130
+twod [1] 0x7fffc1dd213c
+ptr[1] 1
+ptr + 1 0x7fffc1dd2134
+*(ptr + 1) 1
+twod + 1 0x7fffc1dd213c
+*twod + 1 0x7fffc1dd2134
+ptr[8] 22
+function1 
+ 0 1 2 
+ 10 11 12 
+ 20 21 22 
+ 30 31 32 
+ 
+function2 
+ 2 1 0 
+ 12 11 10 
+ 22 21 20 
+ 32 31 30 
+ 
+function3 
+ 0 1 2 
+ 10 11 12 
+ 20 21 22 
+ 30 31 32 
+ 
+function4 
+ 2 1 0 
+ 12 11 10 
+ 22 21 20 
+ 32 31 30 
+ 
+function5 
+ 2 1 0 
+ 12 11 10 
+ 22 21 20 
+ 32 31 30 
+ 
+function6 
+ 0 1 2 
+ 10 11 12 
+ 20 21 22 
+ 30 31 32 
+ 
+jaimew@cslinux:~/cscd240/lab9$ exit
+logout

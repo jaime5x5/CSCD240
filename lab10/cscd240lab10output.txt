@@ -1,0 +1,271 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2013.11.06 23:06:23 =~=~=~=~=~=~=~=~=~=~=~=
+login as: jaimew
+USE OF THIS SYSTEM IS RESTRICTED TO AUTHORIZED EASTERN WASHINGTON UNIVERSITY
+USERS ONLY!! UNAUTHORIZED ACCESS IS PROHIBITED!!
+jaimew@cslinux.eastern.ewu.edu's password: 
+     .                                                                 
+    . ?                                                                
+  .M.MM.                                  MMM                          
+  MM DM.  .:                                MM.                        
+  MM MMM.M?                                 .MM ~                      
+  .MM MM   .                              MMM M                     
+  MM MM.MM.D..~                            OMM MM                      
+  .MM MM MM.M M                             MM.MMM                     
+  .:.  . :I?M+M.                         .7 .NMMMM.                    
+  . MMMMMMMMMM                         MM.DMMMM.,.                     
+  .MMMMMMMMMM.                  . .MMMM 8MM.OMN                        
+    MMMMMMMMMM                M .MMMMMM.MMMMMM                         
+    .DMMMM                  NMM..MMMMMM. ...MMZ                        
+      ?MMMMMMMMM.        ..MMMM..MMMMM= MMMMM                          
+       MMMMMMMMMM       . MMMMMM MMMMM .M ...                          
+       .MMMMMMMMMO      IMMMMMMM,MMMMM ~MMM.                           
+        .MMMM.   .     .MMMMMMMMMMMMMM.M.                              
+         .MMMMMMMM.   M  MMMMMMMMMMMMM                                 
+         .MMMMMMMMM +MM  DMMM$ MMMMMM                                  
+          ..   .. .MMMMM. MMMM  MMMM    _____      ____  __  _________ 
+       MMMMMMMMMO  MMMMMMMMMMM  .M .   / __/ | /| / / / / / / ___/ __/ 
+   .~M MMMMMMMMM=MM$.=MMMMMMMMN.      / _/ | |/ |/ / /_/ / / /___\ \   
+   .MMMMMMMMMMMMMM.MMN =MMMMM        /___/ |__/|__/\____/  \___/___/   
+    NM.     NMNMMMMMMMM..N .MM..                                       
+    .       M.MM, = MN .  .MMMMMM8 .                                   
+          .M+MMMMZ  +MMMM  .MMMMMMMMMM.                                
+         .MM M   MM   MMMMM .MMMMMMM.                                  
+    .~M,. MMM. ...    .MMMMMMMMMM                                      
+    MMM .MI.           .MMMMMM .                                       
+    M     +.             7  .                                          
+
+Welcome to the cslinux student shell server.
+
+  System information as of Wed Nov  6 23:06:37 PST 2013
+
+  System load:  0.08               Processes:           238
+  Usage of /:   83.5% of 11.00GB   Users logged in:     13
+  Memory usage: 53%                IP address for eth0: 146.187.134.29
+  Swap usage:   64%
+
+Please observe the following rules:
+  1.) Any activity that may be perceived as malicious is grounds for termination
+      of shell server privileges and possible disciplinary action.
+  2.) Observe the ACM code of ethics (http://www.acm.org/about/code-of-ethics)
+  3.) Do not write to other user's ttys without agreeing to do so beforehand.
+  4.) Think before you type.
+
+For more information, tutorials on usage, and to disable this banner see: 
+  http://cslabswiki.cslabs.ewu.edu/wiki/index.php/Shell_Server
+
+jaimew@cslinux:~$ cd cscd240/lab10
+jaimew@cslinux:~/cscd240/lab10$ ls
+cscd240_f13_lab10.pdf  cscd240lab10.c      cscd240lab10.h  makefile
+cscd240lab10           cscd240lab10func.c  lab10_org.c     temps.txt
+jaimew@cslinux:~/cscd240/lab10$ rm cscd240lab10
+jaimew@cslinux:~/cscd240/lab10$ make
+gcc -o cscd240lab10 cscd240lab10.c cscd240lab10func.c
+jaimew@cslinux:~/cscd240/lab10$ ./cscd240lab10 temps.txt
+Welcome to the Weather Program.
+
+Please choose from the following: 
+1) Display the max temperature.
+2) Display the min temperature.
+3) Display the mean temperature for the month.
+4) Display the median temperature for the month.
+5) Display the mode temperature for the month.
+6) Load a new file.
+7) Quit.
+Your selection --> 1
+
+The Max temperature is: 28
+
+Welcome to the Weather Program.
+
+Please choose from the following: 
+1) Display the max temperature.
+2) Display the min temperature.
+3) Display the mean temperature for the month.
+4) Display the median temperature for the month.
+5) Display the mode temperature for the month.
+6) Load a new file.
+7) Quit.
+Your selection --> 2
+
+The Min temperature is: -5
+
+Welcome to the Weather Program.
+
+Please choose from the following: 
+1) Display the max temperature.
+2) Display the min temperature.
+3) Display the mean temperature for the month.
+4) Display the median temperature for the month.
+5) Display the mode temperature for the month.
+6) Load a new file.
+7) Quit.
+Your selection --> 3
+
+The Average temperature is: 17
+
+Welcome to the Weather Program.
+
+Please choose from the following: 
+1) Display the max temperature.
+2) Display the min temperature.
+3) Display the mean temperature for the month.
+4) Display the median temperature for the month.
+5) Display the mode temperature for the month.
+6) Load a new file.
+7) Quit.
+Your selection --> 4
+
+The Median temperature is: 19
+
+Welcome to the Weather Program.
+
+Please choose from the following: 
+1) Display the max temperature.
+2) Display the min temperature.
+3) Display the mean temperature for the month.
+4) Display the median temperature for the month.
+5) Display the mode temperature for the month.
+6) Load a new file.
+7) Quit.
+Your selection --> 5
+
+The Mode is 12
+
+Welcome to the Weather Program.
+
+Please choose from the following: 
+1) Display the max temperature.
+2) Display the min temperature.
+3) Display the mean temperature for the month.
+4) Display the median temperature for the month.
+5) Display the mode temperature for the month.
+6) Load a new file.
+7) Quit.
+Your selection --> 6
+
+Please enter a file name. -->temps.txt
+Welcome to the Weather Program.
+
+Please choose from the following: 
+1) Display the max temperature.
+2) Display the min temperature.
+3) Display the mean temperature for the month.
+4) Display the median temperature for the month.
+5) Display the mode temperature for the month.
+6) Load a new file.
+7) Quit.
+Your selection --> 0
+
+Invalid entry please try again. 
+
+Welcome to the Weather Program.
+
+Please choose from the following: 
+1) Display the max temperature.
+2) Display the min temperature.
+3) Display the mean temperature for the month.
+4) Display the median temperature for the month.
+5) Display the mode temperature for the month.
+6) Load a new file.
+7) Quit.
+Your selection --> 8
+
+Invalid entry please try again. 
+
+Welcome to the Weather Program.
+
+Please choose from the following: 
+1) Display the max temperature.
+2) Display the min temperature.
+3) Display the mean temperature for the month.
+4) Display the median temperature for the month.
+5) Display the mode temperature for the month.
+6) Load a new file.
+7) Quit.
+Your selection --> 1
+
+The Max temperature is: 28
+
+Welcome to the Weather Program.
+
+Please choose from the following: 
+1) Display the max temperature.
+2) Display the min temperature.
+3) Display the mean temperature for the month.
+4) Display the median temperature for the month.
+5) Display the mode temperature for the month.
+6) Load a new file.
+7) Quit.
+Your selection --> 2
+
+The Min temperature is: -5
+
+Welcome to the Weather Program.
+
+Please choose from the following: 
+1) Display the max temperature.
+2) Display the min temperature.
+3) Display the mean temperature for the month.
+4) Display the median temperature for the month.
+5) Display the mode temperature for the month.
+6) Load a new file.
+7) Quit.
+Your selection --> 3
+
+The Average temperature is: 17
+
+Welcome to the Weather Program.
+
+Please choose from the following: 
+1) Display the max temperature.
+2) Display the min temperature.
+3) Display the mean temperature for the month.
+4) Display the median temperature for the month.
+5) Display the mode temperature for the month.
+6) Load a new file.
+7) Quit.
+Your selection --> 4
+
+The Median temperature is: 19
+
+Welcome to the Weather Program.
+
+Please choose from the following: 
+1) Display the max temperature.
+2) Display the min temperature.
+3) Display the mean temperature for the month.
+4) Display the median temperature for the month.
+5) Display the mode temperature for the month.
+6) Load a new file.
+7) Quit.
+Your selection --> 5
+
+The Mode is 12
+
+Welcome to the Weather Program.
+
+Please choose from the following: 
+1) Display the max temperature.
+2) Display the min temperature.
+3) Display the mean temperature for the month.
+4) Display the median temperature for the month.
+5) Display the mode temperature for the month.
+6) Load a new file.
+7) Quit.
+Your selection --> 6
+
+Please enter a file name. -->temps.txt
+Welcome to the Weather Program.
+
+Please choose from the following: 
+1) Display the max temperature.
+2) Display the min temperature.
+3) Display the mean temperature for the month.
+4) Display the median temperature for the month.
+5) Display the mode temperature for the month.
+6) Load a new file.
+7) Quit.
+Your selection --> 7
+
+jaimew@cslinux:~/cscd240/lab10$ exit
+logout

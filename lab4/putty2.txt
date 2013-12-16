@@ -1,0 +1,93 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2013.10.12 22:52:19 =~=~=~=~=~=~=~=~=~=~=~=
+login as: jaimew
+USE OF THIS SYSTEM IS RESTRICTED TO AUTHORIZED EASTERN WASHINGTON UNIVERSITY
+USERS ONLY!! UNAUTHORIZED ACCESS IS PROHIBITED!!
+jaimew@cslinux.eastern.ewu.edu's password: 
+     .                                                                 
+    . ?                                                                
+  .M.MM.                                  MMM                          
+  MM DM.  .:                                MM.                        
+  MM MMM.M?                                 .MM ~                      
+  .MM MM   .                              MMM M                     
+  MM MM.MM.D..~                            OMM MM                      
+  .MM MM MM.M M                             MM.MMM                     
+  .:.  . :I?M+M.                         .7 .NMMMM.                    
+  . MMMMMMMMMM                         MM.DMMMM.,.                     
+  .MMMMMMMMMM.                  . .MMMM 8MM.OMN                        
+    MMMMMMMMMM                M .MMMMMM.MMMMMM                         
+    .DMMMM                  NMM..MMMMMM. ...MMZ                        
+      ?MMMMMMMMM.        ..MMMM..MMMMM= MMMMM                          
+       MMMMMMMMMM       . MMMMMM MMMMM .M ...                          
+       .MMMMMMMMMO      IMMMMMMM,MMMMM ~MMM.                           
+        .MMMM.   .     .MMMMMMMMMMMMMM.M.                              
+         .MMMMMMMM.   M  MMMMMMMMMMMMM                                 
+         .MMMMMMMMM +MM  DMMM$ MMMMMM                                  
+          ..   .. .MMMMM. MMMM  MMMM    _____      ____  __  _________ 
+       MMMMMMMMMO  MMMMMMMMMMM  .M .   / __/ | /| / / / / / / ___/ __/ 
+   .~M MMMMMMMMM=MM$.=MMMMMMMMN.      / _/ | |/ |/ / /_/ / / /___\ \   
+   .MMMMMMMMMMMMMM.MMN =MMMMM        /___/ |__/|__/\____/  \___/___/   
+    NM.     NMNMMMMMMMM..N .MM..                                       
+    .       M.MM, = MN .  .MMMMMM8 .                                   
+          .M+MMMMZ  +MMMM  .MMMMMMMMMM.                                
+         .MM M   MM   MMMMM .MMMMMMM.                                  
+    .~M,. MMM. ...    .MMMMMMMMMM                                      
+    MMM .MI.           .MMMMMM .                                       
+    M     +.             7  .                                          
+
+Welcome to the cslinux student shell server.
+
+  System information as of Sat Oct 12 22:52:42 PDT 2013
+
+  System load:  0.0                Processes:           198
+  Usage of /:   74.8% of 11.00GB   Users logged in:     16
+  Memory usage: 32%                IP address for eth0: 146.187.134.29
+  Swap usage:   0%
+
+Please observe the following rules:
+  1.) Any activity that may be perceived as malicious is grounds for termination
+      of shell server privileges and possible disciplinary action.
+  2.) Observe the ACM code of ethics (http://www.acm.org/about/code-of-ethics)
+  3.) Do not write to other user's ttys without agreeing to do so beforehand.
+  4.) Think before you type.
+
+For more information, tutorials on usage, and to disable this banner see: 
+  http://cslabswiki.cslabs.ewu.edu/wiki/index.php/Shell_Server
+
+jaimew@cslinux:~$ cs
+csh     csplit  
+jaimew@cslinux:~$ cscd240/lab4/cscd240lab4.sh 101 cscd240/lab4/cscd240lab4.sh 
+2
+There are only two args: 
+Please enter a number greater than 100: 101
+Please enter a valid file name: cscd240/lab4/cscd240lab4.sh
+Please enter a valid directory name: /homew e /EASTERN/jaimew/
+jaimew@cslinux:~$ cat /cscd240/lab4/cscd240cd cscd24/lab4
+-bash: cd: cscd24/lab4: No such file or directory
+jaimew@cslinux:~$ cd cscd24/lab40/lab4/
+jaimew@cslinux:~/cscd240/lab4$ ls
+cscd240lab4output1.txt  cscd240lab4.sh  shellScripts
+jaimew@cslinux:~/cscd240/lab4$ cat cscd240lab4output1.txt 
+/home/EASTERN/jaimew/cscd240/lab2/date.txt
+/home/EASTERN/jaimew/cscd240/lab1/files.tgz
+/home/EASTERN/jaimew/cscd240/lab4/cscd240lab4output1.txt
+/home/EASTERN/jaimew/cscd240/lab4/cscd240lab4.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script60.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script40.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script8pg1.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script4pg1.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script100.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script80.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script50.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/cscd240lab4.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script20.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/cscd240_f13_lab4.pdf
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script2pg1.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script110.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script1pg1.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script3pg1.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script30.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script70.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script120.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script9pg1.sh
+jaimew@cslinux:~/cscd240/lab4$ exit
+logout

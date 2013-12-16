@@ -1,0 +1,30 @@
+fopen -> low level open
+scanf -> read
+printf -> write
+
+universiality of I/O
+
+open read write and close across all systems (mac windows linux bsd unix).
+
+binary commands 
+
+man 2
+
+inode - an os structure that contains info about disk location, files on the disk, the int identifier.
+
+fopen calls open, open attempts open action.
+
+all files are binary -- text files are binary converted to ascii(so we can read it).
+
+0-stdin
+1-stdout
+2-stderr
+3- next availabe int for file descriptor
+
+open(filename, mode)
+O_RDONLY
+WRONLY
+APPEND
+TRUNC
+RDWR
+CREAT

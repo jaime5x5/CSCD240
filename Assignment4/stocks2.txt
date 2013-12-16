@@ -1,0 +1,30 @@
+SNE Sony Corporation
+41.50
+42
+MSFT Microsoft
+123.45
+806
+GOOG Google Inc
+856.78
+167
+MCD McDonalds
+34.50
+100
+GOOG Google Inc
+678.98
+2
+AAPL Apple Inc
+524.99
+37
+FB Facebook Inc
+49.01
+542
+AAPL Apple Inc
+251.26
+142
+SNE Sony Corporation
+18.50
+99
+BA Boeing
+136.08
+54

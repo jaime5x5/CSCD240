@@ -1,0 +1,28 @@
+multiple target make file
+
+//files
+main.c
+ll.h
+ll.c
+fu.h
+fu.c
+myFunc.c
+myFunc.h
+_______________________________________
+
+hw:	ll.o fu.o myFunc.o main.c
+	gcc -o hw main.c ll.c fu.o myFunc.0
+
+ll.o:	ll.c ll.h
+	gcc -c ll.c
+
+fu.o:	fu.c fu.h
+	gcc -c fu.c
+
+myFunc.o:	myFunc.c myFunc.h
+	gcc -c myFunc.c
+
+________________________________________
+individual area focus
+
+make myFunc.o

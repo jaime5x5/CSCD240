@@ -1,0 +1,82 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2013.11.06 23:08:52 =~=~=~=~=~=~=~=~=~=~=~=
+login as: jaimew
+USE OF THIS SYSTEM IS RESTRICTED TO AUTHORIZED EASTERN WASHINGTON UNIVERSITY
+USERS ONLY!! UNAUTHORIZED ACCESS IS PROHIBITED!!
+jaimew@cslinux.eastern.ewu.edu's password: 
+     .                                                                 
+    . ?                                                                
+  .M.MM.                                  MMM                          
+  MM DM.  .:                                MM.                        
+  MM MMM.M?                                 .MM ~                      
+  .MM MM   .                              MMM M                     
+  MM MM.MM.D..~                            OMM MM                      
+  .MM MM MM.M M                             MM.MMM                     
+  .:.  . :I?M+M.                         .7 .NMMMM.                    
+  . MMMMMMMMMM                         MM.DMMMM.,.                     
+  .MMMMMMMMMM.                  . .MMMM 8MM.OMN                        
+    MMMMMMMMMM                M .MMMMMM.MMMMMM                         
+    .DMMMM                  NMM..MMMMMM. ...MMZ                        
+      ?MMMMMMMMM.        ..MMMM..MMMMM= MMMMM                          
+       MMMMMMMMMM       . MMMMMM MMMMM .M ...                          
+       .MMMMMMMMMO      IMMMMMMM,MMMMM ~MMM.                           
+        .MMMM.   .     .MMMMMMMMMMMMMM.M.                              
+         .MMMMMMMM.   M  MMMMMMMMMMMMM                                 
+         .MMMMMMMMM +MM  DMMM$ MMMMMM                                  
+          ..   .. .MMMMM. MMMM  MMMM    _____      ____  __  _________ 
+       MMMMMMMMMO  MMMMMMMMMMM  .M .   / __/ | /| / / / / / / ___/ __/ 
+   .~M MMMMMMMMM=MM$.=MMMMMMMMN.      / _/ | |/ |/ / /_/ / / /___\ \   
+   .MMMMMMMMMMMMMM.MMN =MMMMM        /___/ |__/|__/\____/  \___/___/   
+    NM.     NMNMMMMMMMM..N .MM..                                       
+    .       M.MM, = MN .  .MMMMMM8 .                                   
+          .M+MMMMZ  +MMMM  .MMMMMMMMMM.                                
+         .MM M   MM   MMMMM .MMMMMMM.                                  
+    .~M,. MMM. ...    .MMMMMMMMMM                                      
+    MMM .MI.           .MMMMMM .                                       
+    M     +.             7  .                                          
+
+Welcome to the cslinux student shell server.
+
+  System information as of Wed Nov  6 23:09:06 PST 2013
+
+  System load:  0.01               Processes:           247
+  Usage of /:   83.5% of 11.00GB   Users logged in:     13
+  Memory usage: 53%                IP address for eth0: 146.187.134.29
+  Swap usage:   64%
+
+  => There is 1 zombie process.
+
+Please observe the following rules:
+  1.) Any activity that may be perceived as malicious is grounds for termination
+      of shell server privileges and possible disciplinary action.
+  2.) Observe the ACM code of ethics (http://www.acm.org/about/code-of-ethics)
+  3.) Do not write to other user's ttys without agreeing to do so beforehand.
+  4.) Think before you type.
+
+For more information, tutorials on usage, and to disable this banner see: 
+  http://cslabswiki.cslabs.ewu.edu/wiki/index.php/Shell_Server
+
+jaimew@cslinux:~$ cd cscd240/lab10
+jaimew@cslinux:~/cscd240/lab10$ valgrind ./cscd240lab10
+==12798== Memcheck, a memory error detector
+==12798== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==12798== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==12798== Command: ./cscd240lab10
+==12798== 
+^C==12798== 
+==12798== HEAP SUMMARY:
+==12798==     in use at exit: 568 bytes in 1 blocks
+==12798==   total heap usage: 1 allocs, 0 frees, 568 bytes allocated
+==12798== 
+==12798== LEAK SUMMARY:
+==12798==    definitely lost: 0 bytes in 0 blocks
+==12798==    indirectly lost: 0 bytes in 0 blocks
+==12798==      possibly lost: 0 bytes in 0 blocks
+==12798==    still reachable: 568 bytes in 1 blocks
+==12798==         suppressed: 0 bytes in 0 blocks
+==12798== Rerun with --leak-check=full to see details of leaked memory
+==12798== 
+==12798== For counts of detected and suppressed errors, rerun with: -v
+==12798== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
+
+jaimew@cslinux:~/cscd240/lab10$ exit
+logout

@@ -1,0 +1,92 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2013.11.11 22:56:27 =~=~=~=~=~=~=~=~=~=~=~=
+login as: jaimew
+USE OF THIS SYSTEM IS RESTRICTED TO AUTHORIZED EASTERN WASHINGTON UNIVERSITY
+USERS ONLY!! UNAUTHORIZED ACCESS IS PROHIBITED!!
+jaimew@cslinux.eastern.ewu.edu's password: 
+     .                                                                 
+    . ?                                                                
+  .M.MM.                                  MMM                          
+  MM DM.  .:                                MM.                        
+  MM MMM.M?                                 .MM ~                      
+  .MM MM   .                              MMM M                     
+  MM MM.MM.D..~                            OMM MM                      
+  .MM MM MM.M M                             MM.MMM                     
+  .:.  . :I?M+M.                         .7 .NMMMM.                    
+  . MMMMMMMMMM                         MM.DMMMM.,.                     
+  .MMMMMMMMMM.                  . .MMMM 8MM.OMN                        
+    MMMMMMMMMM                M .MMMMMM.MMMMMM                         
+    .DMMMM                  NMM..MMMMMM. ...MMZ                        
+      ?MMMMMMMMM.        ..MMMM..MMMMM= MMMMM                          
+       MMMMMMMMMM       . MMMMMM MMMMM .M ...                          
+       .MMMMMMMMMO      IMMMMMMM,MMMMM ~MMM.                           
+        .MMMM.   .     .MMMMMMMMMMMMMM.M.                              
+         .MMMMMMMM.   M  MMMMMMMMMMMMM                                 
+         .MMMMMMMMM +MM  DMMM$ MMMMMM                                  
+          ..   .. .MMMMM. MMMM  MMMM    _____      ____  __  _________ 
+       MMMMMMMMMO  MMMMMMMMMMM  .M .   / __/ | /| / / / / / / ___/ __/ 
+   .~M MMMMMMMMM=MM$.=MMMMMMMMN.      / _/ | |/ |/ / /_/ / / /___\ \   
+   .MMMMMMMMMMMMMM.MMN =MMMMM        /___/ |__/|__/\____/  \___/___/   
+    NM.     NMNMMMMMMMM..N .MM..                                       
+    .       M.MM, = MN .  .MMMMMM8 .                                   
+          .M+MMMMZ  +MMMM  .MMMMMMMMMM.                                
+         .MM M   MM   MMMMM .MMMMMMM.                                  
+    .~M,. MMM. ...    .MMMMMMMMMM                                      
+    MMM .MI.           .MMMMMM .                                       
+    M     +.             7  .                                          
+
+Welcome to the cslinux student shell server.
+
+  System information as of Mon Nov 11 22:56:42 PST 2013
+
+  System load:  0.02               Swap usage:          66%
+  Usage of /:   85.9% of 11.00GB   Users logged in:     10
+  Memory usage: 51%                IP address for eth0: 146.187.134.29
+
+  => / is using 85.9% of 11.00GB
+  => There were exceptions while processing one or more plugins. See
+     /var/log/landscape/sysinfo.log for more information.
+
+Please observe the following rules:
+  1.) Any activity that may be perceived as malicious is grounds for termination
+      of shell server privileges and possible disciplinary action.
+  2.) Observe the ACM code of ethics (http://www.acm.org/about/code-of-ethics)
+  3.) Do not write to other user's ttys without agreeing to do so beforehand.
+  4.) Think before you type.
+
+For more information, tutorials on usage, and to disable this banner see: 
+  http://cslabswiki.cslabs.ewu.edu/wiki/index.php/Shell_Server
+
+jaimew@cslinux:~$ cd cscd240/lab11
+jaimew@cslinux:~/cscd240/lab11$ ls
+cscd240lab11.c      cscd240lab11.h  makefile
+cscd240lab11func.c  lab11orig.c     smallFile.pgm
+jaimew@cslinux:~/cscd240/lab11$ make
+gcc -o cscd240lab11 cscd240lab11.c cscd240lab11func.c
+jaimew@cslinux:~/cscd240/lab11$ ./cscd240lab11 -e 1 smallFile.pgm newSmallFile.p gm
+jaimew@cslinux:~/cscd240/lab11$ ls
+cscd240lab11    cscd240lab11func.c  lab11orig.c  newSmallFile.pgm
+cscd240lab11.c  cscd240lab11.h      makefile     smallFile.pgm
+jaimew@cslinux:~/cscd240/lab11$ nano newSmallFile.pgm 
+  GNU nano 2.2.6            File: newSmallFile.pgm                              P2# feep.ascii.pgm7 24150000000000$0333300777$0300000700$0333000777$0300000700$0300000777$0000000000$[ Read 11 lines ]^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos^X Exit^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell  GNU nano 2.2.6            File: newSmallFile.pgm                              P2# feep.ascii.pgm7 24150000000000$0333300777$0300000700$0333000777$0300000700$0300000777$0000000000$[ Read 11 lines ]^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos^X Exit^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell  GNU nano 2.2.6            File: newSmallFile.pgm                              P2# feep.ascii.pgm7 24150000000000$0333300777$0300000700$0333000777$0300000700$0300000777$0000000000$   File: newSmallFile.pgm          0$ 7$ 0$ 0$ 0$ 7$ 0$^G Get Help   ^O WriteOut   ^R Read File  ^Y Prev Page  ^K Cut Text   ^C Cur Pos^X Exit^J Justify    ^W Where Is   ^V Next Page  ^U UnCut Text ^T To Spell  GNU nano 2.2.6               File: newSmallFile.pgm                                    P2# feep.ascii.pgm7 241500000000000$03333007777$03000007000$03330007770$03000007000$03000007777$00000000000$^G Get Help   ^O WriteOut   ^R Read File  ^Y Prev Page  ^K Cut Text   ^C Cur Pos^X Exit^J Justify    ^W Where Is   ^V Next Page  ^U UnCut Text ^T To Spell  GNU nano 2.2.6               File: newSmallFile.pgm                                    P2# feep.ascii.pgm7 241500000000000$03333007777$03000007000$03330007770$03000007000$03000007777$00000000000$             File: newSmallFile.pgm                                       00000$00111111     $001100$00111111     $001100$00111111     $00000$^G Get Help^O WriteOut^R Read File^Y Prev Page^K Cut Text^C Cur Pos^X Exit^J Justify^W Where Is^V Next Page^U UnCut Text^T To Spell  GNU nano 2.2.6                            File: newSmallFile.pgm                                                              P2# feep.ascii.pgm7 24150000000000000000$0333300777700111111     $03000007000001100$0333000777000111111     $03000007000001100$0300000777700111111     $0000000000000000$^G Get Help^O WriteOut^R Read File^Y Prev Page^K Cut Text^C Cur Pos^X Exit^J Justify^W Where Is^V Next Page^U UnCut Text^T To Spell  GNU nano 2.2.6                            File: newSmallFile.pgm                                                              P2# feep.ascii.pgm7 24150000000000000000$0333300777700111111     $03000007000001100$0333000777000111111     $03000007000001100$0300000777700111111     $0000000000000000$          File: newSmallFile.pgm                                0000     $ 110015    $ 00015    $ 00015    $ 00015    $ 110015    $ 0000     $^G Get Help^O WriteOut^R Read File^Y Prev Page^K Cut Text^C Cur Pos^X Exit^J Justify^W Where Is^V Next Page^U UnCut Text^T To Spell  GNU nano 2.2.6                                      File: newSmallFile.pgm                                                                                   P2# feep.ascii.pgm7 241500000000000000000000     $0333300777700111111110015    $0300000700000110000015    $033300077700011111100015    $0300000700000110000015    $0300000777700111111110015    $00000000000000000000     $^G Get Help^O WriteOut^R Read File^Y Prev Page^K Cut Text^C Cur Pos^X Exit^J Justify^W Where Is^V Next Page^U UnCut Text^T To Spell  GNU nano 2.2.6                                      File: newSmallFile.pgm                                                                                   P2# feep.ascii.pgm7 241500000000000000000000     $0333300777700111111110015    $0300000700000110000015    $033300077700011111100015    $0300000700000110000015    $0300000777700111111110015    $00000000000000000000     $         File: newSmallFile.pgm                            000$  151515$  0015$  151515$  000$  000$  000$^G Get Help^O WriteOut^R Read File^Y Prev Page^K Cut Text^C Cur Pos^X Exit^J Justify^W Where Is^V Next Page^U UnCut Text^T To Spell  GNU nano 2.2.6                                               File: newSmallFile.pgm                                                                                                    P2# feep.ascii.pgm7 241500000000000000000000000$0333300777700111111110015151515$03000007000001100000150015$033300077700011111100015151515$0300000700000110000015000$0300000777700111111110015000$00000000000000000000000$^G Get Help^O WriteOut^R Read File^Y Prev Page^K Cut Text^C Cur Pos^X Exit^J Justify^W Where Is^V Next Page^U UnCut Text^T To Spell  GNU nano 2.2.6                                               File: newSmallFile.pgm                                                                                                    P2# feep.ascii.pgm7 241500000000000000000000000$0333300777700111111110015151515$03000007000001100000150015$033300077700011111100015151515$0300000700000110000015000$0300000777700111111110015000$00000000000000000000000$         File: newSmallFile.pgm                           0000000^G Get Help^O WriteOut^R Read File^Y Prev Page^K Cut Text^C Cur Pos^X Exit^J Justify^W Where Is^V Next Page^U UnCut Text^T To Spell[ XOFF ignored, mumble mumble ]jaimew@cslinux:~/cscd240/lab11$ valgrinfd ./cscd240lab11 -e nano newSmallFile.pgmls./cscd240lab11 -e 1 smallFile.pgm newSmallFile.pgmval grgrind 
+==21174== Memcheck, a memory error detector
+==21174== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==21174== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==21174== Command: ./cscd240lab11 -e 1 smallFile.pgm newSmallFile.pgm
+==21174== 
+==21174== 
+==21174== HEAP SUMMARY:
+==21174==     in use at exit: 728 bytes in 8 blocks
+==21174==   total heap usage: 10 allocs, 2 frees, 1,864 bytes allocated
+==21174== 
+==21174== LEAK SUMMARY:
+==21174==    definitely lost: 56 bytes in 1 blocks
+==21174==    indirectly lost: 672 bytes in 7 blocks
+==21174==      possibly lost: 0 bytes in 0 blocks
+==21174==    still reachable: 0 bytes in 0 blocks
+==21174==         suppressed: 0 bytes in 0 blocks
+==21174== Rerun with --leak-check=full to see details of leaked memory
+==21174== 
+==21174== For counts of detected and suppressed errors, rerun with: -v
+==21174== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
+jaimew@cslinux:~/cscd240/lab11$ exit
+logout

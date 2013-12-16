@@ -1,0 +1,333 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2013.10.12 22:57:08 =~=~=~=~=~=~=~=~=~=~=~=
+login as: jaimew
+USE OF THIS SYSTEM IS RESTRICTED TO AUTHORIZED EASTERN WASHINGTON UNIVERSITY
+USERS ONLY!! UNAUTHORIZED ACCESS IS PROHIBITED!!
+jaimew@cslinux.eastern.ewu.edu's password: 
+     .                                                                 
+    . ?                                                                
+  .M.MM.                                  MMM                          
+  MM DM.  .:                                MM.                        
+  MM MMM.M?                                 .MM ~                      
+  .MM MM   .                              MMM M                     
+  MM MM.MM.D..~                            OMM MM                      
+  .MM MM MM.M M                             MM.MMM                     
+  .:.  . :I?M+M.                         .7 .NMMMM.                    
+  . MMMMMMMMMM                         MM.DMMMM.,.                     
+  .MMMMMMMMMM.                  . .MMMM 8MM.OMN                        
+    MMMMMMMMMM                M .MMMMMM.MMMMMM                         
+    .DMMMM                  NMM..MMMMMM. ...MMZ                        
+      ?MMMMMMMMM.        ..MMMM..MMMMM= MMMMM                          
+       MMMMMMMMMM       . MMMMMM MMMMM .M ...                          
+       .MMMMMMMMMO      IMMMMMMM,MMMMM ~MMM.                           
+        .MMMM.   .     .MMMMMMMMMMMMMM.M.                              
+         .MMMMMMMM.   M  MMMMMMMMMMMMM                                 
+         .MMMMMMMMM +MM  DMMM$ MMMMMM                                  
+          ..   .. .MMMMM. MMMM  MMMM    _____      ____  __  _________ 
+       MMMMMMMMMO  MMMMMMMMMMM  .M .   / __/ | /| / / / / / / ___/ __/ 
+   .~M MMMMMMMMM=MM$.=MMMMMMMMN.      / _/ | |/ |/ / /_/ / / /___\ \   
+   .MMMMMMMMMMMMMM.MMN =MMMMM        /___/ |__/|__/\____/  \___/___/   
+    NM.     NMNMMMMMMMM..N .MM..                                       
+    .       M.MM, = MN .  .MMMMMM8 .                                   
+          .M+MMMMZ  +MMMM  .MMMMMMMMMM.                                
+         .MM M   MM   MMMMM .MMMMMMM.                                  
+    .~M,. MMM. ...    .MMMMMMMMMM                                      
+    MMM .MI.           .MMMMMM .                                       
+    M     +.             7  .                                          
+
+Welcome to the cslinux student shell server.
+
+  System information as of Sat Oct 12 22:57:30 PDT 2013
+
+  System load:  0.38               Processes:           192
+  Usage of /:   74.8% of 11.00GB   Users logged in:     14
+  Memory usage: 31%                IP address for eth0: 146.187.134.29
+  Swap usage:   0%
+
+Please observe the following rules:
+  1.) Any activity that may be perceived as malicious is grounds for termination
+      of shell server privileges and possible disciplinary action.
+  2.) Observe the ACM code of ethics (http://www.acm.org/about/code-of-ethics)
+  3.) Do not write to other user's ttys without agreeing to do so beforehand.
+  4.) Think before you type.
+
+For more information, tutorials on usage, and to disable this banner see: 
+  http://cslabswiki.cslabs.ewu.edu/wiki/index.php/Shell_Server
+
+jaimew@cslinux:~$ cd cscd240/lab4/
+jaimew@cslinux:~/cscd240/lab4$ ls
+cscd240lab4output1.txt  cscd240lab4.sh  shellScripts
+jaimew@cslinux:~/cscd240/lab4$ ./cscd240lab4.sh 
+0
+There are no args: 0
+Please enter a number greater than 100: 101
+Please enter a valid file name: cscd240lab4.sh
+Please enter a valid directory name: /home/EASTR^HERN      er  ERN/
+find: `/home/EASTERN/lsalom': Permission denied
+find: `/home/EASTERN/paulj': Permission denied
+find: `/home/EASTERN/wfish': Permission denied
+find: `/home/EASTERN/bzimmermann': Permission denied
+find: `/home/EASTERN/asamaha15': Permission denied
+find: `/home/EASTERN/jwilson23': Permission denied
+find: `/home/EASTERN/zbowman69': Permission denied
+find: `/home/EASTERN/mtikhomirov': Permission denied
+find: `/home/EASTERN/mgiacalo': Permission denied
+find: `/home/EASTERN/jleque': Permission denied
+find: `/home/EASTERN/bemehiser1': Permission denied
+find: `/home/EASTERN/mkerr2': Permission denied
+find: `/home/EASTERN/rhulse': Permission denied
+find: `/home/EASTERN/lhumphreys': Permission denied
+find: `/home/EASTERN/ytian': Permission denied
+find: `/home/EASTERN/emeldrum': Permission denied
+find: `/home/EASTERN/tpham10': Permission denied
+find: `/home/EASTERN/jjweeden': Permission denied
+find: `/home/EASTERN/bsilcox': Permission denied
+find: `/home/EASTERN/bphillips': Permission denied
+find: `/home/EASTERN/nowens': Permission denied
+jaimew@cslinux:~/cscd240/lab4$ CAT CScat cscd240lab4output1.txt \
+/home/EASTERN/jaimew/frost.poem
+/home/EASTERN/jaimew/.bash_history
+/home/EASTERN/jaimew/cscd240/lab2/date.txt
+/home/EASTERN/jaimew/cscd240/lab1/files.tgz
+/home/EASTERN/jaimew/cscd240/lab4/cscd240lab4output1.txt
+/home/EASTERN/jaimew/cscd240/lab4/cscd240lab4.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script60.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script40.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script8pg1.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script4pg1.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script100.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script80.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script50.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/cscd240lab4.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script20.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/cscd240_f13_lab4.pdf
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script2pg1.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script110.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script1pg1.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script3pg1.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script30.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script70.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script120.sh
+/home/EASTERN/jaimew/cscd240/lab4/shellScripts/script9pg1.sh
+/home/EASTERN/jaimew/penvout.txt
+/home/EASTERN/jaimew/.local/share/icc/edid-ea180dd6ae2f8855659993f05df4cc54.icc
+/home/EASTERN/jaimew/.local/share/Trash/files/sslab3_14a
+/home/EASTERN/jaimew/.local/share/Trash/files/sslab3_14a.jpg
+/home/EASTERN/jaimew/.local/share/Trash/files/ssLab3_14a.jpg
+/home/EASTERN/jaimew/.local/share/recently-used.xbel
+/home/EASTERN/jaimew/.local/share/gvfs-metadata/home
+/home/EASTERN/jaimew/.local/share/gvfs-metadata/root-5b1c3e42.log
+/home/EASTERN/jaimew/.local/share/gvfs-metadata/home-2f617f6e.log
+/home/EASTERN/jaimew/.local/share/gsettings-data-convert
+/home/EASTERN/jaimew/.local/share/zeitgeist/activity.sqlite-wal
+/home/EASTERN/jaimew/.local/share/zeitgeist/activity.sqlite
+/home/EASTERN/jaimew/.local/share/zeitgeist/fts.index/position.DB
+/home/EASTERN/jaimew/.local/share/zeitgeist/fts.index/termlist.DB
+/home/EASTERN/jaimew/.local/share/zeitgeist/fts.index/record.DB
+/home/EASTERN/jaimew/.local/share/zeitgeist/fts.index/postlist.DB
+/home/EASTERN/jaimew/.local/share/zeitgeist/activity.sqlite-shm
+/home/EASTERN/jaimew/.pulse/baac70364270418279cf968200000010-device-volumes.tdb
+/home/EASTERN/jaimew/.pulse/baac70364270418279cf968200000010-stream-volumes.tdb
+/home/EASTERN/jaimew/.pulse/baac70364270418279cf968200000010-card-database.tdb
+/home/EASTERN/jaimew/.ICEauthority
+/home/EASTERN/jaimew/envout.txt
+/home/EASTERN/jaimew/cscd240lab4output1.txt
+/home/EASTERN/jaimew/.bashrc
+/home/EASTERN/jaimew/.ssh/known_hosts
+/home/EASTERN/jaimew/testScript4
+/home/EASTERN/jaimew/testFileAdd
+/home/EASTERN/jaimew/.profile
+/home/EASTERN/jaimew/.cache/indicator-applet.log
+/home/EASTERN/jaimew/.cache/ubuntuone/log/credentials.log
+/home/EASTERN/jaimew/.cache/event-sound-cache.tdb.baac70364270418279cf968200000010.x86_64-pc-linux-gnu
+/home/EASTERN/jaimew/.cache/sso/sso-client.log
+/home/EASTERN/jaimew/.cache/wallpaper/0_5_1920_1200_792beab7550410d531e55f95b449f135
+/home/EASTERN/jaimew/a.out
+/home/EASTERN/jaimew/.gtk-bookmarks
+/home/EASTERN/jaimew/more.txt
+/home/EASTERN/jaimew/.bash_logout
+/home/EASTERN/jaimew/.fontconfig/158c65c810c0d352a587f5be66058e87-le64.cache-3
+/home/EASTERN/jaimew/.gnome2/accels/nautilus
+/home/EASTERN/jaimew/.pulse-cookie
+/home/EASTERN/jaimew/.gconf/apps/gnome-screenshot/%gconf.xml
+/home/EASTERN/jaimew/.gconf/apps/deja-dup/s3/%gconf.xml
+/home/EASTERN/jaimew/.gconf/apps/deja-dup/%gconf.xml
+/home/EASTERN/jaimew/.gconf/apps/gnome-terminal/profiles/Default/%gconf.xml
+/home/EASTERN/jaimew/.gconf/apps/panel3-applets/object_4/%gconf.xml
+/home/EASTERN/jaimew/.gconf/apps/eog/ui/%gconf.xml
+/home/EASTERN/jaimew/.gconf/apps/eog/view/%gconf.xml
+/home/EASTERN/jaimew/.thumbnails/normal/d6635a90e405897e598dde32304922ff.png
+/home/EASTERN/jaimew/.thumbnails/normal/71fa318b4fb813359082a0eb37ea1d3d.png
+/home/EASTERN/jaimew/.thumbnails/normal/a939b25086ab967594343b782f05405f.png
+/home/EASTERN/jaimew/.dbus/session-bus/baac70364270418279cf968200000010-0
+/home/EASTERN/jaimew/lab3/frost.poem
+/home/EASTERN/jaimew/.xsession-errors
+/home/EASTERN/jaimew/almostEndless.c
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/urlclassifierkey3.txt
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/cookies.sqlite
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/formhistory.sqlite
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/signons.sqlite
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/permissions.sqlite
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/localstore.rdf
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/places.sqlite
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/secmod.db
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/extensions.ini
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/search.json
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/thumbnails/be62f4e631fe2387a6418fcc22546155.png
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/thumbnails/ad28a7d3a93536c44460a3ef8025150b.png
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/thumbnails/5bb9ea1af1a7510c477be74f20146d0a.png
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/thumbnails/b798ffb9c9bee83d267b0ac4f60ea4be.png
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/thumbnails/b8a240da9cfc0fa4c90a80b82d3a9a59.png
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/thumbnails/f9291f688966f619be75d744cffa0153.png
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/thumbnails/ac2528f86e00fc101ecb859afba877e8.png
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/thumbnails/3de75e446bc73be25998600cd3a863b1.png
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/thumbnails/aa08a23d94fb7b119a14333f6faf1d8d.png
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/thumbnails/943940cb1b836c38162ddab46b4f721e.png
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/thumbnails/04e0d7d784216e20234730e11d8b3c49.png
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/key3.db
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/startupCache/startupCache.8.little
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/9/F2/EEF20d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/9/09/AE8B3d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/9/03/DFD09d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/8/9A/E7D52d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/8/22/A736Dd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/8/CC/FB7A9d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/8/4F/CF0D3d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/8/88/C70FFd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/8/5B/888CAd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/8/66/3B0A1d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/3/46/F3086d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/3/48/9D1ACd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/3/AA/6A127d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/3/E4/84D6Cd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/3/1B/D845Bd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/4/0C/863BEd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/4/EA/A0368d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/4/EA/13FE0d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/4/5B/2437Bd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/4/E1/A6A81d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/4/38/C84CAd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/4/1D/B9FB1d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/D/65/1F82Ed01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/D/2E/0735Ad01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/D/36/3DCFEd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/D/56/C9EEAd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/D/FE/062D7d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/D/C2/2216Dd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/D/26/CB830d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/D/32/D61A1d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/D/73/D2BF2d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/D/EC/C8EC9d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/_CACHE_003_
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/C/97/16B7Cd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/C/1C/0C731d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/C/39/2E821d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/C/4E/47685d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/5/1F/E63FEd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/5/B8/49826d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/5/EE/B886Fd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/5/BD/C7FD4d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/5/EA/DEA8Dd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/5/78/9842Bd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/5/F0/FFEC0d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/5/8A/72111d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/5/32/E33F3d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/_CACHE_MAP_
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/B/E6/7213Cd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/B/2E/B165Ad01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/B/F6/B7474d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/B/AD/B4ED3d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/B/EA/D2110d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/B/FD/FC01Fd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/B/AE/AFAD4d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/1/C3/16B39d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/1/A1/91A20d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/1/9F/ED5F3d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/1/98/79EEBd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/1/3A/F7FFDd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/1/88/90FCCd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/1/53/CA0EAd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/1/BA/0E656d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/1/DB/62E1Bd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/1/E5/2DB9Fd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/1/D9/453EBd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/_CACHE_001_
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/A/D0/38A46d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/A/0C/2B18Cd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/A/63/9F5D5d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/A/F1/76561d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/A/40/E3035d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/A/71/F7BA6d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/A/3B/473A0d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/A/F4/48C50d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/0/E9/89CEFd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/0/69/5EE6Dd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/0/DC/408EAd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/0/54/E48D2d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/0/A4/EF27Ed01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/0/60/32729d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/0/F0/0DF47d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/0/4E/BF28Fd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/0/FD/8E91Ad01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/0/11/BBE40d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/0/43/FD4E7d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/0/20/3C8E7d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/0/EC/CCA43d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/7/B2/83F08d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/7/AA/79F73d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/7/85/73959d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/7/39/EDD55d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/7/CD/639B8d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/7/C7/DD965d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/7/4A/7060Bd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/_CACHE_002_
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/E/95/7B4CDd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/E/1A/6F2AFd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/E/D7/84116d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/E/53/7BB08d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/E/FA/A8E7Cd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/E/C8/D642Fd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/E/6C/66B05d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/F/EB/7F252d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/F/F8/2897Cd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/F/BA/0F158d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/F/A2/9C059d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/F/7C/13A91d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/F/15/4361Ed01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/F/90/557DBd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/F/E1/CACA5d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/F/38/266B0d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/6/34/A298Dd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/6/E0/EDEE8d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/6/56/9D551d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/6/5D/D571Dd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/6/63/C6A70d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/6/6F/97F87d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/2/62/9249Dd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/2/D6/9DC1Fd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/2/54/C557Cd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/2/4D/7B627d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/2/4C/92C1Fd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/2/FA/21271d01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/2/C1/F76CCd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/Cache/2/B0/0E2DCd01
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/cert8.db
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/prefs.js
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/safebrowsing/test-malware-simple.sbstore
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/safebrowsing/goog-phish-shavar.pset
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/safebrowsing/test-phish-simple.sbstore
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/safebrowsing/goog-phish-shavar.sbstore
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/safebrowsing/goog-malware-shavar.pset
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/safebrowsing/goog-malware-shavar.sbstore
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/compatibility.ini
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/extensions.sqlite
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/downloads.sqlite
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/sessionstore.js
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/content-prefs.sqlite
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/webappsstore.sqlite
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/mimeTypes.rdf
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/bookmarkbackups/bookmarks-2013-04-11.json
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/addons.sqlite
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/pluginreg.dat
+/home/EASTERN/jaimew/.mozilla/firefox/dze1b8a7.default/blocklist.xml
+jaimew@cslinux:~/cscd240/lab4$ exit
+logout

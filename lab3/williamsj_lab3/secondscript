@@ -1,0 +1,6 @@
+#!/bin/ksh
+string="Hello World"
+echo $string
+
+
+
